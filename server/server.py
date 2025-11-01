@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 GITHUB_TOKEN = os.environ.get("ACCESS_TOKEN")
 
+
 @app.route("/")
 def hello():
     return "GitHub Chess backend is live!"
@@ -35,15 +36,69 @@ def move():
     # # update board image
     # assert(False)
     # generate_board_image(fen=state["board"], output_path="../board_image.png")
-    
+
     return redirect(redirect_url)
 
 @app.route("/click")
 def click():
     square = request.args.get("sq")
     game = request.args.get("game")
-    redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess/play/white")
 
+    # game logic
+    with open('state.json', 'r') as f:
+        state = json.load(f)
+
+    # get variables
+    board = chess.Board(state["board"])
+    piece = board.piece_at(square)
+
+    chess_square = chess.parse_square(square) # chess_square is python chess square object eg: chess.A8
+    piece = board.piece_at(chess_square)
+
+    player = state["turn"] # white or black
+
+    if state[player] == "start":
+        if piece == None:
+            state[player] = "start" # state remains at start as user didn't select valid move
+        else:
+            state[player] = "selected" # change state to selected to display valid moves
+            state["on_select"] = square
+
+            # get legal moves of the square
+            for move in board.legal_moves:
+                # Filter moves that START at the selected source square
+                if move.from_square == chess_square:
+                    legal_destination_coordinates.add(move.to_square) # chess constant
+                    legal_list.append(chess.square_name(move.to_square))
+                    # eg: legal string is something like a4e5c3
+
+            state["legal_list"] = legal_list
+
+
+    elif state[player] == "selected":
+        selected_chess_square = chess.parse_square(state["on_select"])
+        selected_piece = board.piece_at(selected_chess_square)
+
+        if state["on_select"] in state["legal_list"]: # user makes a legal move
+            # *** call function to update board ***
+            # moving FROM state["on_select"]
+            # moving TO square
+            # these will be strings eg: "e4", not python chess constants
+
+            state[player] = "start"
+        else:
+            state[player] = "start"
+
+
+        # reset legal list
+        state["legal_list"] = ""
+
+
+    # write back state into json
+    with open('state.json', 'w') as f:
+        json.dump(state, f, indent=4)
+
+    redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess/play/white")
     # read the board state and return
     return redirect(redirect_url)
 
@@ -54,21 +109,30 @@ colourEnum = {chess.BLACK: 'd', chess.WHITE: 'l'}
 def display():
     # return an image grid square
     square = request.args.get("sq")
-    
+
     game = request.args.get("game")
 
     with open('state.json', 'r') as f:
         state = json.load(f)
-    
+
     board = chess.Board(state["board"])
     chess_square = chess.parse_square(square)
     piece = board.piece_at(chess_square)
     board_colour = 'd' if (int(square[1]) +ord(square[0])) % 2 == 0 else 'l'
 
+    # find name of png
     if piece == None:
-        imagename = 'e' + board_colour + '.png'
+        imagename = 'e'
     else:
-        imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color] + board_colour + '.png'
+        imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color]
+
+    imagename = imagename + board_colour
+
+    # add green indicator
+    if square in legal_list:
+        imagename = imagename + 'h'
+
+    imagename = imagename + '.png'
 
     path = os.path.join(os.getcwd(), "images", imagename)
     return send_file(path, mimetype='image/png')
