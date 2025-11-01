@@ -1,9 +1,8 @@
-from flask import Flask, request, redirect
+from flask import Flask, request, redirect, send_file
 import requests
 import os
 import json
 import chess
-# from ../scripts/generate_board import generate_board_image
 
 app = Flask(__name__)
 
@@ -43,13 +42,15 @@ def move():
 def click():
     square = request.args.get("sq")
     game = request.args.get("game")
+    redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess/play/white")
 
     # read the board state and return
+    return redirect(redirect_url)
 
 pieceEnum = {chess.BISHOP: 'b', chess.KING: 'k', chess.KNIGHT: 'n', chess.PAWN: 'p', chess.QUEEN: 'q', chess.ROOK: 'r'}
 colourEnum = {chess.BLACK: 'd', chess.WHITE: 'l'}
 
-@app.route("/display")
+@app.route("/display", methods=['GET'])
 def display():
     # return an image grid square
     square = request.args.get("sq")
@@ -60,14 +61,17 @@ def display():
         state = json.load(f)
     
     board = chess.Board(state["board"])
-
     chess_square = chess.parse_square(square)
     piece = board.piece_at(chess_square)
-    board_colour = board.color_at(chess_square)
+    board_colour = 'd' if (int(square[1]) +ord(square[0])) % 2 == 0 else 'l'
 
-    imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color] + colourEnum[board_colour]
+    if piece == None:
+        imagename = 'e' + board_colour + '.png'
+    else:
+        imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color] + board_colour + '.png'
 
-    return app.send_static_file(f'./images/{imagename}.png')    
+    path = os.path.join(os.getcwd(), "images", imagename)
+    return send_file(path, mimetype='image/png')
 
 
 if __name__ == "__main__":
