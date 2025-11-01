@@ -1,0 +1,5 @@
+name: Handle move
+
+on:
+  repository_dispatch:
+    types: [make_move]
