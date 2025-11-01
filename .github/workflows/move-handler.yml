@@ -8,6 +8,8 @@ on:
 jobs:
   handle-move:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository }}/chess-env:latest
 
     steps:
       - uses: actions/checkout@v4
