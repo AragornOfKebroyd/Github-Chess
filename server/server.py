@@ -68,7 +68,6 @@ def click():
             for move in board.legal_moves:
                 # Filter moves that START at the selected source square
                 if move.from_square == chess_square:
-                    legal_destination_coordinates.add(move.to_square) # chess constant
                     legal_list.append(chess.square_name(move.to_square))
                     # eg: legal string is something like a4e5c3
 
