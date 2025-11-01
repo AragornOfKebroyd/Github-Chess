@@ -1,8 +1,1 @@
-{
-  "game": "game0",
-  "white": "Player1",
-  "black": "Player2",
-  "turn": "white",
-  "moves": [],
-  "board": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-}
+{"game": "game0", "white": "Player1", "black": "Player2", "turn": "black", "moves": ["e2e4"], "board": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"}
