@@ -1,4 +1,5 @@
 <p id="jump">Do white then copy over</p>
+<div style="line-height:-10px; margin: -10px; padding:-10px; font-size:-10px">
 <div>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=a1&player=black&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a1&player=black"width="64" height="64"/></a>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=b1&player=black&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b1&player=black"width="64" height="64"/></a>
@@ -78,5 +79,6 @@
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=f8&player=black&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f8&player=black"width="64" height="64"/></a>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=g8&player=black&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g8&player=black"width="64" height="64"/></a>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=h8&player=black&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h8&player=black"width="64" height="64"/></a>
+</div>
 </div>
 
