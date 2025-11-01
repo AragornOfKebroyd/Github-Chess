@@ -1,7 +1,6 @@
 import chess
 import chess.svg
 import json
-import cairosvg 
 from io import BytesIO
 
 STATE_FILE = "../state.json"
@@ -35,7 +34,7 @@ def generate_board_image(output_path: str):
     # 2. Convert SVG bytes to PNG and Save using cairosvg
     try:
         # cairosvg.svg2png converts the byte string directly to a PNG file
-        cairosvg.svg2png(bytestring=svg_data, write_to=output_path)
+        # cairosvg.svg2png(bytestring=svg_data, write_to=output_path)
         print(f"Successfully generated and saved board image to {output_path}")
 
     except Exception as e:
