@@ -24,6 +24,6 @@ def main():
     with open("state.json", "w") as f:
         json.dump(state, f)
     
-    generate_board_image(fen=state["board"], output_path="board_image.png")
+    generate_board_image(fen=state["board"], output_path="../board_image.png")
 
 main()    
