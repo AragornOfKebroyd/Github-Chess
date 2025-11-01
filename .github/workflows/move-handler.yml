@@ -27,7 +27,7 @@ jobs:
           python scripts/update_board.py "${{ github.event.client_payload.game }}" "${{ github.event.client_payload.move }}"
 
       - name: Commit updated board and README
-        working-directory: /__w/Github-Chess/Github-Chess
+        working-directory: ${{ github.workspace }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
