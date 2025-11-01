@@ -2,5 +2,4 @@ flask
 requests
 python-chess
 pillow
-CairoSVG
 chess
