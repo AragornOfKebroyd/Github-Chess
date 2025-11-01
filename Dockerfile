@@ -9,6 +9,17 @@ COPY server/requirements.txt /app/requirements.txt
 # Install git
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 
+# Install system dependencies required for CairoSVG
+RUN apt-get update && apt-get install -y \
+    libcairo2 \
+    libcairo2-dev \
+    libpango-1.0-0 \
+    libpangocairo-1.0-0 \
+    libgdk-pixbuf2.0-0 \
+    libffi-dev \
+    shared-mime-info \
+ && rm -rf /var/lib/apt/lists/*
+
 # Install dependencies
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
