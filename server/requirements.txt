@@ -2,3 +2,5 @@ flask
 requests
 python-chess
 pillow
+cairosvg
+chess
