@@ -1,7 +1,7 @@
 from flask import Flask, request, redirect
 import requests
 import os
-from ../scripts/generate_board import generate_board_image
+# from ../scripts/generate_board import generate_board_image
 
 app = Flask(__name__)
 
@@ -31,9 +31,9 @@ def move():
     print("Status code:", response.status_code)
     print("Response body:", response.text)
 
-    # update board image
-    assert(False)
-    generate_board_image(fen=state["board"], output_path="../board_image.png")
+    # # update board image
+    # assert(False)
+    # generate_board_image(fen=state["board"], output_path="../board_image.png")
     
     return redirect(redirect_url)
 
