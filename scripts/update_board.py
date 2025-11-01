@@ -1,7 +1,9 @@
 import chess
 import json
 import sys
+from generate_board import generate_board_image # generate board svg image function
 # this code updates state.json using python-chess
+
 def main():
 
     game_id = sys.argv[1]
@@ -22,8 +24,6 @@ def main():
     with open("state.json", "w") as f:
         json.dump(state, f)
     
-
-
-
+    generate_board_image(fen=state["board"], output_path="board_image.png")
 
 main()    
