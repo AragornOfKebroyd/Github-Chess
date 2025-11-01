@@ -14,13 +14,6 @@ jobs:
       image: ghcr.io/aragornofkebroyd/github-chess/chess-env:latest
 
     steps:
-      - run: |
-          echo "Inside container:"
-          python3 - << 'EOF'
-          import flask, chess
-          print("✅ Flask version:", flask.__version__)
-          print("✅ python-chess loaded successfully")
-          EOF
       - uses: actions/checkout@v4
 
       - name: Process move
