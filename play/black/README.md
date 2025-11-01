@@ -1,5 +1,5 @@
-Do white then copy over
-<h2 id="jump"/>
+<p id="jump">Do white then copy over</p>
+
 <div>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=a8&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8"width="64" height="64"/></a>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&to=b8&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8"width="64" height="64"/></a>
