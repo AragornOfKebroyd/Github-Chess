@@ -1,9 +1,13 @@
 {
     "game": "game0",
-    "white": "start",
+    "white": "selected",
     "black": "start",
     "turn": "white",
-    "legal_list": [],
+    "legal_list": [
+        "c3",
+        "a3",
+        "d2"
+    ],
     "moves": [
         "e2e4",
         "g8f6",
@@ -29,6 +33,6 @@
         "e8d7"
     ],
     "board": "rn3b1r/pppkp1pp/5p2/8/2P2Pb1/4B1PN/PP5P/RN2KB1n w Q - 1 12",
-    "on_select": "e8",
+    "on_select": "b1",
     "prom_list": []
 }
