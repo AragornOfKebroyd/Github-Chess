@@ -17,6 +17,7 @@ def generate_board(player):
             string += f'  <a href={clickurl(square)}><img src="{url(square)}"width="64" height="64"/></a>\n'
         string += "</div>\n"
     string += '''
+
     ---
 
     ### ⚙️ Server Logic Transition
@@ -97,7 +98,7 @@ def generate_board(player):
         <area shape="rect" coords="350,490,420,560" alt="cell 8,6" href="https://example.com/cell-8-6">
         <area shape="rect" coords="420,490,490,560" alt="cell 8,7" href="https://example.com/cell-8-7">
         <area shape="rect" coords="490,490,560,560" alt="cell 8,8" href="https://example.com/cell-8-8">
-</map>
+    </map>
 
     '''
     return string
