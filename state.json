@@ -5,7 +5,7 @@
     "turn": "black",
     "legal_list": [
         "d7",
-        "d6"
+        "a6"
     ],
     "moves": [
         "e2e4",
@@ -35,6 +35,6 @@
         "a2a4"
     ],
     "board": "rn3b1r/ppp1p1pp/2k2p2/8/P1P2Pb1/2N1B1PN/1P5P/R3KB1n b Q - 0 13",
-    "on_select": "c6",
+    "on_select": "b8",
     "prom_list": []
 }
