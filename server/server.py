@@ -121,11 +121,11 @@ def click(): # state logic
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
-    black_html = generate_board.generate_board('black', state["turn"] == "black") # only clickable for the current player
+    black_html = generate_board.generate_board('black', state["turn"] == "black", state["moves"][-1]) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
         f.write(black_html) 
 
-    white_html = generate_board.generate_board('white', state["turn"] == "white") # only clickable for the current player
+    white_html = generate_board.generate_board('white', state["turn"] == "white", state["moves"][-1]) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
         f.write(white_html)
 
