@@ -132,6 +132,7 @@ def click(): # state logic
 
 
     prev_move = state["moves"][-1] if len(state["moves"]) > 0 else "-"
+    board = chess.Board(state["board"])
     
     black_html = generate_board.generate_board('black', state["turn"] == "black", prev_move, board.is_game_over()) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
