@@ -5,11 +5,14 @@
     "turn": "black",
     "legal_list": [
         "f8",
-        "d8",
-        "g5",
+        "e7",
+        "e5",
         "c5",
         "f4",
-        "d4"
+        "b4",
+        "g3",
+        "a3",
+        "h2"
     ],
     "moves": [
         "e2e4",
@@ -69,5 +72,5 @@
         "c1g5"
     ],
     "board": "1k6/ppp3pp/3bn3/6B1/2B5/7K/PPP2p2/R3R3 b - - 1 28",
-    "on_select": "e6"
+    "on_select": "d6"
 }

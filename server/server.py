@@ -65,7 +65,7 @@ def click(): # state logic
                     print(move)
                     move_to_square = chess.square_name(move.to_square)
                     # autoqueen
-                    print(f"{move.to_square = } {move.promotion = }")
+                    print(f"move.to_square = {move.to_square} {move.promotion = }")
                     if move.promotion is not None:
                         promotion_move_list.append(move_to_square)
 
