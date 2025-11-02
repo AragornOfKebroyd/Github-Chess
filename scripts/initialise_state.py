@@ -2,9 +2,17 @@ import json
 import sys
 import chess
 import os
-from . import generate_board
+
+if __name__ == "__main__":
+    import generate_board
+else:
 import subprocess
 import time
+
+
+
+
+
 
 # initialises state.json with the beginning of a game
 state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
