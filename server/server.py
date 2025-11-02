@@ -124,11 +124,11 @@ def click(): # state logic
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
-    black_html = generate_board.generate_board('black', state["turn"] == "black", state["moves"][-1]) # only clickable for the current player
+    black_html = generate_board.generate_board('black', state["turn"] == "black", state["moves"][-1], board.is_game_over()) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
         f.write(black_html)
 
-    white_html = generate_board.generate_board('white', state["turn"] == "white", state["moves"][-1]) # only clickable for the current player
+    white_html = generate_board.generate_board('white', state["turn"] == "white", state["moves"][-1], board.is_game_over()) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
         f.write(white_html)
 
@@ -162,16 +162,19 @@ def display():
     if board.is_game_over():
         if board.turn == chess.WHITE:
             if current_player == "white":
-                image_pref = "win"
-            else:
                 image_pref = "lose"
+            else:
+                image_pref = "win"
         elif board.turn == chess.BLACK:
             if current_player == "black":
-                image_pref = "win"
-            else:
                 image_pref = "lose"
+            else:
+                image_pref = "win"
 
-        imagename = image_pref + square
+        if current_player == "black":
+            square = square[0] + str(9 - int(square[1])) # flip square for black view
+
+        imagename = image_pref + square + ".png"
         path = os.path.join(os.getcwd(), image_pref, imagename)
 
     else:

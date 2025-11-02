@@ -33,6 +33,7 @@
   <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
     <img src="https://img.shields.io/badge/Home-558855?style=for-the-badge" width=148 />
   </a>
+  {RESET_BUTTON}
 </p>
 
 <h2>How to Play</h2>
