@@ -30,8 +30,6 @@ def generate_board(player):
     **Dynamic URL (Production Goal):**
     `https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/square_img?game=abc123&sq=e8`
 
-    <img src="ss.jpg" alt="560x560 image split into 8x8 grid" usemap="#grid" width="560" height="560">
-
     '''
     return string
 
