@@ -28,6 +28,7 @@ def generate_board(player, clickable, last_move):
 
     content = content.replace("{CHESS_BOARD}", board_string.strip())
     content = content.replace("{CURRENT_PLAYER}", player.capitalize())
+    content = content.replace("{CURRENT_PLAYER_LC}", player)
     content = content.replace("{LAST_MOVE}", last_move)
     return content
 

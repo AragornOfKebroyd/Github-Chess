@@ -26,8 +26,12 @@
   </tr>
 </table>
 <p align="center">
-  <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/{CURRENT_PLAYER_LC}#jump">
     <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
+  </a>
+  &nspb;&nspb;
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
+    <img src="https://img.shields.io/badge/Home-558855?style=for-the-badge" width=200 />
   </a>
 </p>
 
