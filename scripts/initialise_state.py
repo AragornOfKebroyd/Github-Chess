@@ -2,7 +2,6 @@ import json
 import sys
 import chess
 import os
-
 if __name__ == "__main__":
     import generate_board
 else:
