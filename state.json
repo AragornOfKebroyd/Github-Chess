@@ -1,20 +1,8 @@
 {
-    "white": "selected",
+    "white": "start",
     "black": "start",
-    "turn": "white",
-    "legal_list": [
-        "d8",
-        "d7",
-        "d6",
-        "d5",
-        "d4",
-        "d3",
-        "d2",
-        "h1",
-        "g1",
-        "f1",
-        "e1"
-    ],
+    "turn": "black",
+    "legal_list": [],
     "moves": [
         "e2e4",
         "e7e5",
@@ -55,9 +43,10 @@
         "f4e5",
         "f6e5",
         "b5c4",
-        "g8f8"
+        "g8f8",
+        "d1d8"
     ],
-    "board": "3r1k2/p3q1pp/1p6/2p1p3/2B1P3/N1Q5/PPP3PP/2KR4 w - - 2 21",
+    "board": "3R1k2/p3q1pp/1p6/2p1p3/2B1P3/N1Q5/PPP3PP/2K5 b - - 0 21",
     "on_select": "d1",
     "prom_list": []
 }
