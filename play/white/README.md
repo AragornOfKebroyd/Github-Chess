@@ -1,96 +1,128 @@
-<p id="jump">Press a piece to show legal moves, then choose or clip off to reset</p>
-<div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white&t=1762094068.907557"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8&player=white&t=1762094068.9075615"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c8&player=white&t=1762094068.9075637"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d8&player=white&t=1762094068.9075665"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e8&player=white&t=1762094068.9075687"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f8&player=white&t=1762094068.9075706"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g8&player=white&t=1762094068.9075725"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h8&player=white&t=1762094068.9075744"width="64" height="64"/></picture>
+<h1 id="jump" align="center">Github Chess</h1>
+
+<table align="center">
+  <tr>
+    <!-- Left: Chessboard -->
+    <td>
+      <div>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white&t=1762095481.7812448"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8&player=white&t=1762095481.7812498"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c8&player=white&t=1762095481.781253"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d8&player=white&t=1762095481.781256"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e8&player=white&t=1762095481.7812583"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f8&player=white&t=1762095481.7812755"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g8&player=white&t=1762095481.7812798"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h8&player=white&t=1762095481.7812815"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a7&player=white&t=1762094068.9075766"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b7&player=white&t=1762094068.9075787"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c7&player=white&t=1762094068.9075804"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d7&player=white&t=1762094068.9075825"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e7&player=white&t=1762094068.9075847"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f7&player=white&t=1762094068.9075868"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g7&player=white&t=1762094068.9075887"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h7&player=white&t=1762094068.9075906"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a7&player=white&t=1762095481.7812836"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b7&player=white&t=1762095481.781285"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c7&player=white&t=1762095481.7812867"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d7&player=white&t=1762095481.7812877"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e7&player=white&t=1762095481.7812889"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f7&player=white&t=1762095481.7812903"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g7&player=white&t=1762095481.7812922"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h7&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h7&player=white&t=1762095481.7812936"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a6&player=white&t=1762094068.9075933"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b6&player=white&t=1762094068.9075952"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c6&player=white&t=1762094068.9075973"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d6&player=white&t=1762094068.9075997"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e6&player=white&t=1762094068.9076016"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f6&player=white&t=1762094068.9076035"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g6&player=white&t=1762094068.9076054"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h6&player=white&t=1762094068.9076076"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a6&player=white&t=1762095481.781295"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b6&player=white&t=1762095481.7812965"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c6&player=white&t=1762095481.7812977"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d6&player=white&t=1762095481.7812989"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e6&player=white&t=1762095481.7813003"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f6&player=white&t=1762095481.7813015"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g6&player=white&t=1762095481.7813034"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h6&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h6&player=white&t=1762095481.7813048"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a5&player=white&t=1762094068.9076102"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b5&player=white&t=1762094068.907612"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c5&player=white&t=1762094068.9076145"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d5&player=white&t=1762094068.9076166"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e5&player=white&t=1762094068.9076185"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f5&player=white&t=1762094068.9076207"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g5&player=white&t=1762094068.9076226"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h5&player=white&t=1762094068.9076247"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a5&player=white&t=1762095481.781306"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b5&player=white&t=1762095481.7813075"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c5&player=white&t=1762095481.7813087"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d5&player=white&t=1762095481.7813098"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e5&player=white&t=1762095481.7813113"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f5&player=white&t=1762095481.7813125"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g5&player=white&t=1762095481.7813134"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h5&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h5&player=white&t=1762095481.7813148"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a4&player=white&t=1762094068.9076264"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b4&player=white&t=1762094068.907628"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c4&player=white&t=1762094068.90763"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d4&player=white&t=1762094068.9076316"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e4&player=white&t=1762094068.9076326"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f4&player=white&t=1762094068.9076338"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g4&player=white&t=1762094068.9076347"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h4&player=white&t=1762094068.907636"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a4&player=white&t=1762095481.7813165"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b4&player=white&t=1762095481.7813177"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c4&player=white&t=1762095481.781319"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d4&player=white&t=1762095481.78132"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e4&player=white&t=1762095481.7813215"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f4&player=white&t=1762095481.7813227"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g4&player=white&t=1762095481.7813241"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h4&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h4&player=white&t=1762095481.7813253"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a3&player=white&t=1762094068.9076374"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b3&player=white&t=1762094068.9076383"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c3&player=white&t=1762094068.9076393"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d3&player=white&t=1762094068.9076402"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e3&player=white&t=1762094068.9076414"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f3&player=white&t=1762094068.9076424"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g3&player=white&t=1762094068.9076433"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h3&player=white&t=1762094068.9076445"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a3&player=white&t=1762095481.7813265"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b3&player=white&t=1762095481.7813282"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c3&player=white&t=1762095481.7813292"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d3&player=white&t=1762095481.7813303"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e3&player=white&t=1762095481.7813318"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f3&player=white&t=1762095481.781333"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g3&player=white&t=1762095481.7813342"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h3&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h3&player=white&t=1762095481.7813356"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a2&player=white&t=1762094068.9076457"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b2&player=white&t=1762094068.9076467"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c2&player=white&t=1762094068.9076478"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d2&player=white&t=1762094068.9076488"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e2&player=white&t=1762094068.9076498"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f2&player=white&t=1762094068.9076517"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g2&player=white&t=1762094068.9076526"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h2&player=white&t=1762094068.9076536"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a2&player=white&t=1762095481.781337"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b2&player=white&t=1762095481.7813385"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c2&player=white&t=1762095481.7813396"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d2&player=white&t=1762095481.7813408"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e2&player=white&t=1762095481.7813423"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f2&player=white&t=1762095481.7813435"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g2&player=white&t=1762095481.7813447"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h2&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h2&player=white&t=1762095481.781346"width="64" height="64"/></a>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a1&player=white&t=1762094068.907655"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b1&player=white&t=1762094068.907656"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c1&player=white&t=1762094068.907657"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d1&player=white&t=1762094068.907658"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e1&player=white&t=1762094068.907659"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f1&player=white&t=1762094068.90766"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g1&player=white&t=1762094068.907661"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h1&player=white&t=1762094068.9076622"width="64" height="64"/></picture>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a1&player=white&t=1762095481.7813473"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b1&player=white&t=1762095481.7813487"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=c1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c1&player=white&t=1762095481.78135"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=d1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d1&player=white&t=1762095481.781351"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=e1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e1&player=white&t=1762095481.7813523"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=f1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f1&player=white&t=1762095481.7813535"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=g1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g1&player=white&t=1762095481.7813547"width="64" height="64"/></a>
+  <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h1&player=white&t=1762095481.7813563"width="64" height="64"/></a>
 </div>
+    </td>
+    <!-- Right: Status Panel -->
+    <td style="vertical-align: top; padding-left: 20px;">
+      <table>
+        <tr>
+          <th>Status</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td><b>Current Turn</b></td>
+          <td>White</td>
+        </tr>
+        <tr>
+          <td><b>Last Move</b></td>
+          <td>c8d7</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p align="center">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump">
+    <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
+  </a>
+  &nspb;&nspb;
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
+    <img src="https://img.shields.io/badge/Home-558855?style=for-the-badge" width=200 />
+  </a>
+</p>
+
+<h2>How to Play</h2>
+<ol>
+  <li>Click on the board to select a piece</li>
+  <li>Then click a valid destination square</li>
+  <li>3. GitHub will trigger a move via a commit and refresh</li>
+  <li>You may need to refresh the page to see the latest move from your opponent</li>
+</ol>
 
 
-    ---
-
-    ### ⚙️ Server Logic Transition
-
-    To move this to **dynamic mode**, you will replace the absolute static image URL (`https://raw.githubusercontent.com/.../FILE.png`) with your server's dynamic endpoint:
-
-    **Static URL (Testing):**
-    `https://raw.githubusercontent.com/AragornOfKebroyd/Github-Chess/main/images/kdl.png`
-
-    **Dynamic URL (Production Goal):**
-    `https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/square_img?game=abc123&sq=e8`
-
-    
+<p align="center">
+  <sub>Built for the hackathon theme: <strong>“Unintended Behaviour”</strong> — turning GitHub into a real-time chess platform.</sub>
+</p>

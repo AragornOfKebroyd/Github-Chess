@@ -1,0 +1,49 @@
+<h1 id="jump" align="center">Github Chess</h1>
+
+<table align="center">
+  <tr>
+    <!-- Left: Chessboard -->
+    <td>
+      {CHESS_BOARD}
+    </td>
+    <!-- Right: Status Panel -->
+    <td style="vertical-align: top; padding-left: 20px;">
+      <table>
+        <tr>
+          <th>Status</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td><b>Current Turn</b></td>
+          <td>{CURRENT_PLAYER}</td>
+        </tr>
+        <tr>
+          <td><b>Last Move</b></td>
+          <td>{LAST_MOVE}</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p align="center">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/{CURRENT_PLAYER_LC}#jump">
+    <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
+  </a>
+  &nspb;&nspb;
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
+    <img src="https://img.shields.io/badge/Home-558855?style=for-the-badge" width=200 />
+  </a>
+</p>
+
+<h2>How to Play</h2>
+<ol>
+  <li>Click on the board to select a piece</li>
+  <li>Then click a valid destination square</li>
+  <li>3. GitHub will trigger a move via a commit and refresh</li>
+  <li>You may need to refresh the page to see the latest move from your opponent</li>
+</ol>
+
+
+<p align="center">
+  <sub>Built for the hackathon theme: <strong>“Unintended Behaviour”</strong> — turning GitHub into a real-time chess platform.</sub>
+</p>
