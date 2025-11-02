@@ -122,13 +122,13 @@ def click(): # state logic
         json.dump(state, f, indent=4)
 
     # update time query tags to avoid caching
-    black_html = generate_board.generate_board('black')
+    black_html = generate_board.generate_board('black', current_player!='black') # only clickable for the next player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
-        f.write(black_html, current_player!='black') # only clickable for the next player
+        f.write(black_html) 
 
-    white_html = generate_board.generate_board('white')
+    white_html = generate_board.generate_board('white', current_player!='white') # only clickable for the next player
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
-        f.write(white_html, current_player!='white') # only clickable for the next player
+        f.write(white_html) 
     
 
 
