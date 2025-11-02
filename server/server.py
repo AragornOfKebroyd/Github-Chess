@@ -65,6 +65,7 @@ def click(): # state logic
                     print(move)
                     move_to_square = chess.square_name(move.to_square)
                     # autoqueen
+                    print(f"{move.to_square = } {move.promotion = }")
                     if move.promotion is not None:
                         promotion_move_list.append(move_to_square)
 
@@ -72,8 +73,7 @@ def click(): # state logic
                     # eg: legal string is something like ['e3', 'e4']
             state["legal_list"] = legal_list
             state["prom_list"] = promotion_move_list
-
-    
+            print(f"{state["prom_list"] = }")
     
     
     elif state[player] == "selected":
