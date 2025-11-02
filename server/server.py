@@ -8,7 +8,7 @@ import chess.svg
 import subprocess, time
 # import update_board.py
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from scripts import update_board, generate_board
+from scripts import update_board, generate_board, initialise_state
 
 
 app = Flask(__name__)
@@ -23,6 +23,12 @@ def hello():
 
 @app.route("/redirect")
 def redirect_route():
+    redirect_url = request.args.get("redirect")
+    return redirect(redirect_url)
+
+@app.route("/reset")
+def reset():
+    initialise_state.main()
     redirect_url = request.args.get("redirect")
     return redirect(redirect_url)
 
