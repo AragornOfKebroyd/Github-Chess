@@ -3,7 +3,15 @@
     "white": "start",
     "black": "selected",
     "turn": "black",
-    "legal_list": [],
+    "legal_list": [
+        "g8",
+        "e8",
+        "d7",
+        "h5",
+        "d5",
+        "g4",
+        "e4"
+    ],
     "moves": [
         "e2e4",
         "d7d5",
@@ -36,5 +44,5 @@
         "f3f4"
     ],
     "board": "2kr4/ppp2ppp/2n2n2/4rP1P/1b3KP1/3Q4/PPP5/R1B2B1R b - - 2 15",
-    "on_select": "d3"
+    "on_select": "f6"
 }
