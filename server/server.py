@@ -132,11 +132,10 @@ colourEnum = {chess.BLACK: 'd', chess.WHITE: 'l'}
 
 @app.route("/display", methods=['GET'])
 def display():
-    # return an image grid square
     square = request.args.get("sq")
-
+    current_player = request.args.get("player")
     game = request.args.get("game")
-
+    
     with open(state_path, 'r') as f:
         state = json.load(f)
 
@@ -152,8 +151,10 @@ def display():
         imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color]
 
     imagename = imagename + board_colour
-    # add green indicator
-    if square in state["legal_list"]:
+    # add green indicator for correct player
+
+    player = state["turn"]
+    if square in state["legal_list"] and current_player == player:
         imagename = imagename + 'h'
 
     imagename = imagename + '.png'
