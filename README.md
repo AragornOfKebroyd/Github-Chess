@@ -56,10 +56,12 @@
 </table>
 
 <h2>How to Play</h2>
-1. Click on the board to select a piece  
-2. Then click a valid destination square  
-3. GitHub will trigger a move via a commit and refresh
-4. You may need to **refresh the page** to see the latest move from your opponent  
+<ol>
+  <li>Click on the board to select a piece</li>
+  <li>Then click a valid destination square</li>
+  <li>3. GitHub will trigger a move via a commit and refresh</li>
+  <li>You may need to refresh the page to see the latest move from your opponent</li>
+</ol>
 
 
 <p align="center">
