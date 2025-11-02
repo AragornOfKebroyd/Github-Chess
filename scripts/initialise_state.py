@@ -1,8 +1,10 @@
 import json
 import sys
 import chess
+import os
 
 # initialises state.json with the beginning of a game
+state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
 
 def main():
     # TODO remove game_id everywhere
@@ -25,7 +27,7 @@ def main():
         "legal_list": [],  # allowed moves from 'on_select'
     }
 
-    with open("state.json", "w") as f:
+    with open(state_path, "w") as f:
         json.dump(state, f)
 
 
