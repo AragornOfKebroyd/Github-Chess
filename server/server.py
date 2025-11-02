@@ -118,10 +118,10 @@ def click(): # state logic
 
 
     # write back state into json
+    print(state)
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
-    print("HEREHRHEHRHER")
     # update time query tags to avoid caching
     new_html = generate_board.generate_board(current_player)
     with open(os.path.join(os.path.dirname(__file__),'..','play',current_player,'README.html'), 'w') as f:
