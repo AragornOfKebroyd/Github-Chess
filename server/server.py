@@ -123,9 +123,13 @@ def click(): # state logic
         json.dump(state, f, indent=4)
 
     # update time query tags to avoid caching
-    new_html = generate_board.generate_board(current_player)
-    with open(os.path.join(os.path.dirname(__file__),'..','play',current_player,'README.md'), 'w') as f:
-        f.write(new_html)
+    black_html = generate_board.generate_board('black')
+    with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
+        f.write(black_html)
+        
+    white_html = generate_board.generate_board('white')
+    with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
+        f.write(white_html)
 
     # push to github
     subprocess.run(["git", "add", "."], check=True)
