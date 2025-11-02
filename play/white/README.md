@@ -80,17 +80,3 @@
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=h1&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h1&player=white&t=1762091997.1670475"width="64" height="64"/></a>
 </div>
 
-
-    ---
-
-    ### ⚙️ Server Logic Transition
-
-    To move this to **dynamic mode**, you will replace the absolute static image URL (`https://raw.githubusercontent.com/.../FILE.png`) with your server's dynamic endpoint:
-
-    **Static URL (Testing):**
-    `https://raw.githubusercontent.com/AragornOfKebroyd/Github-Chess/main/images/kdl.png`
-
-    **Dynamic URL (Production Goal):**
-    `https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/square_img?game=abc123&sq=e8`
-
-    
