@@ -21,34 +21,6 @@ state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
 def hello():
     return "GitHub Chess backend is live!"
 
-@app.route("/move")
-def move(): # DEPRICATED
-    move = request.args.get("move")
-    game = request.args.get("game")
-    redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess")
-
-    # Call GitHub API to trigger repository_dispatch
-
-    # note that this should only be done upon shutting down of the codespace to make sure that it is stored
-    payload = {"game": game, "move": move}
-    response = requests.post(
-        "https://api.github.com/repos/AragornOfKebroyd/Github-Chess/dispatches",
-        headers={
-            "Authorization": f"token {GITHUB_TOKEN}",
-            "Accept": "application/vnd.github.everest-preview+json",
-        },
-        json={"event_type": "make_move", "client_payload": payload},
-    )
-
-    print("Status code:", response.status_code)
-    print("Response body:", response.text)
-
-    # # update board image
-    # assert(False)
-    # generate_board_image(fen=state["board"], output_path="../board_image.png")
-
-    return redirect(redirect_url)
-
 @app.route("/click")
 def click(): # state logic
     square = request.args.get("sq")
@@ -135,7 +107,7 @@ def click(): # state logic
     black_html = generate_board.generate_board('black')
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
         f.write(black_html)
-        
+
     white_html = generate_board.generate_board('white')
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
         f.write(white_html)
