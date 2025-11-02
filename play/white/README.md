@@ -1,19 +1,3 @@
-
-# Github-Chess
-
-[Click](https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/move?game=abc123&move=e2e4&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white)
-# ♟️ GitHub-Chess (Static Image Test Mode)
-
-**Mode:** This version uses **static links** to images stored in your GitHub repository to test the Markdown table layout and image serving. The board will **NOT** update when clicked.
-
-**Current Game ID:** `abc123`
-
----
-
-### 🖱️ Click to Test Links (No Move Logic)
-
-Clicking any square sends a request to your server's `/click` endpoint. Your server should be configured to immediately redirect back to this README to confirm link functionality.
-
 <div>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white"width="64" height="64"/></a>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=b8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8&player=white"width="64" height="64"/></a>
