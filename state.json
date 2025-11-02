@@ -1,27 +1,18 @@
 {
-    "white": "selected",
+    "white": "start",
     "black": "start",
-    "turn": "white",
-    "legal_list": [
-        "a6",
-        "h5",
-        "b5",
-        "g4",
-        "c4",
-        "f3",
-        "d3",
-        "f1",
-        "d1"
-    ],
+    "turn": "black",
+    "legal_list": [],
     "moves": [
         "e2e4",
         "f7f5",
         "d1h5",
         "g7g6",
         "f1e2",
-        "g6h5"
+        "g6h5",
+        "e2h5"
     ],
-    "board": "rnbqkbnr/ppppp2p/8/5p1p/4P3/8/PPPPBPPP/RNB1K1NR w KQkq - 0 4",
+    "board": "rnbqkbnr/ppppp2p/8/5p1B/4P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
     "on_select": "e2",
     "prom_list": []
 }
