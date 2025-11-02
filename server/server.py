@@ -31,14 +31,12 @@ def click(): # state logic
     # game logic
     with open(state_path, 'r') as f:
         state = json.load(f)
-    # print(state)
-    # print(state['board'])
 
     # get variables
     board = chess.Board(state["board"])
     chess_square = chess.parse_square(square) # chess_square is python chess square object eg: chess.A8
     piece = board.piece_at(chess_square)
-    
+
     player = state["turn"] # white or black
 
     if player != current_player:
@@ -54,10 +52,10 @@ def click(): # state logic
         else:
             state[player] = "selected" # change state to selected to display valid moves
             state["on_select"] = square
-    
+
             legal_list = []
             promotion_move_list = []
-    
+
             # get legal moves of the square
             for move in board.legal_moves:
                 # Filter moves that START at the selected source square
@@ -74,14 +72,14 @@ def click(): # state logic
             state["legal_list"] = legal_list
             state["prom_list"] = promotion_move_list
             print(f"{state['prom_list'] = }")
-    
-    
+
+
     elif state[player] == "selected":
         selected_chess_square = chess.parse_square(state["on_select"])
         selected_piece = board.piece_at(selected_chess_square)
-    
+
         # print(state["on_select"], repr(square), state["legal_list"])
-    
+
         if square in state["legal_list"]: # user makes a legal move
             print(square)
             uci_move = f"{state['on_select']}{square}{'q' if square in state['prom_list'] else ''}"
@@ -89,16 +87,16 @@ def click(): # state logic
             state["turn"] = "black" if state["turn"] == "white" else "white"
             state["moves"].append(uci_move)
             state[player] = "start"
-            
+
             # reset legal list
             state["legal_list"] = []
         else:
             state[player] = "selected" # change state to selected to display valid moves
             state["on_select"] = square
-    
+
             legal_list = []
             promotion_move_list = []
-    
+
             # get legal moves of the square
             for move in board.legal_moves:
                 # Filter moves that START at the selected source square
@@ -121,9 +119,10 @@ def click(): # state logic
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
+
     black_html = generate_board.generate_board('black', state["turn"] == "black") # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
-        f.write(black_html) 
+        f.write(black_html)
 
     white_html = generate_board.generate_board('white', state["turn"] == "white") # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
@@ -149,38 +148,56 @@ def display():
     square = request.args.get("sq")
     current_player = request.args.get("player")
     game = request.args.get("game")
-    
+
     with open(state_path, 'r') as f:
         state = json.load(f)
 
     board = chess.Board(state["board"])
-    chess_square = chess.parse_square(square)
-    piece = board.piece_at(chess_square)
-    board_colour = 'd' if (int(square[1]) +ord(square[0])) % 2 == 0 else 'l'
 
-    # find name of png
-    if piece == None:
-        imagename = 'e'
+    # win logic
+    if board.is_game_over():
+        if board.turn == chess.WHITE:
+            if current_player == "white":
+                image_pref = "win"
+            else:
+                image_pref = "lose"
+        elif board.turn == chess.BLACK:
+            if current_player == "black"
+                image_pref = "win"
+            else:
+                image_pref = "lose"
+
+        imagename = image_pref + square
+        path = os.path.join(os.getcwd(), image_pref, imagename)
+
     else:
-        imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color]
+        chess_square = chess.parse_square(square)
+        piece = board.piece_at(chess_square)
+        board_colour = 'd' if (int(square[1]) +ord(square[0])) % 2 == 0 else 'l'
 
-    imagename = imagename + board_colour
-    # add green indicator for correct player
+        # find name of png
+        if piece == None:
+            imagename = 'e'
+        else:
+            imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color]
 
-    player = state["turn"]
-    if square in state["legal_list"] and current_player == player:
-        imagename = imagename + 'h'
+        imagename = imagename + board_colour
+        # add green indicator for correct player
 
-    imagename = imagename + '.png'
+        player = state["turn"]
+        if square in state["legal_list"] and current_player == player:
+            imagename = imagename + 'h'
 
-    path = os.path.join(os.getcwd(), "images", imagename)
+        imagename = imagename + '.png'
+        path = os.path.join(os.getcwd(), "images", imagename)
+
     return send_file(path, mimetype='image/png')
 
 @app.route('/displayboard')
 def display_board():
     with open(state_path, 'r') as f:
         state = json.load(f)
-    
+
     board = chess.Board(state["board"])
 
     svg = chess.svg.board(
