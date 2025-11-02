@@ -26,7 +26,7 @@
   </tr>
 </table>
 <p align="center">
-  <a href="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/{CURRENT_PLAYER_LC}#jump">
+  <a href="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/redirect&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/{CURRENT_PLAYER_LC}#jump">
     <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
   </a>
   &nbsp;&nbsp;

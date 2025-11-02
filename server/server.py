@@ -21,12 +21,17 @@ state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
 def hello():
     return "GitHub Chess backend is live!"
 
+@app.route("/redirect")
+def redirect_route():
+    redirect_url = request.args.get("redirect")
+    return redirect(redirect_url)
+
 @app.route("/click")
 def click(): # state logic
     square = request.args.get("sq")
     current_player = request.args.get("player")
     game = request.args.get("game")
-    redirect_url = request.args.get("redirect", f"https://github.com/AragornOfKebroyd/Github-Chess/{current_player}")
+    redirect_url = request.args.get("redirect", f"https://github.com/AragornOfKebroyd/Github-Chess#jump")
 
     # game logic
     with open(state_path, 'r') as f:
