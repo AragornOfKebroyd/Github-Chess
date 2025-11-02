@@ -1,12 +1,9 @@
 {
     "game": "game0",
-    "white": "selected",
+    "white": "start",
     "black": "start",
     "turn": "white",
-    "legal_list": [
-        "e3",
-        "e4"
-    ],
+    "legal_list": [],
     "moves": [],
     "board": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "on_select": "e2"
