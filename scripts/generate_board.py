@@ -31,10 +31,9 @@ def generate_board(player, clickable, last_move, game_over):
     content = content.replace("{CURRENT_PLAYER_LC}", player)
     content = content.replace("{LAST_MOVE}", last_move)
     if game_over:
-        content = content.replace("{RESET_BUTTON}", f"""
-&nbsp;&nbsp;
+        content = content.replace("{RESET_BUTTON}", f"""&nbsp;&nbsp;
 <a href="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/reset?redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/{player}#jump">
-<img src="https://img.shields.io/badge/Reset-885555?style=for-the-badge" width=148 />
+<img src="https://img.shields.io/badge/Reset-885555?style=for-the-badge" width=156 />
 </a>""")
     else:
         content = content.replace("{RESET_BUTTON}", "")
