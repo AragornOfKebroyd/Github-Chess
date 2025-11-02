@@ -144,7 +144,7 @@ def display():
 
     imagename = imagename + board_colour
     # add green indicator
-    if square in legal_list:
+    if square in state["legal_list"]:
         imagename = imagename + 'h'
 
     imagename = imagename + '.png'
