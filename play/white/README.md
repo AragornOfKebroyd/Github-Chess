@@ -5,84 +5,84 @@
     <!-- Left: Chessboard -->
     <td>
       <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white&t=1762095833.6431065"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8&player=white&t=1762095833.643112"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c8&player=white&t=1762095833.6431146"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d8&player=white&t=1762095833.6431167"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e8&player=white&t=1762095833.643119"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f8&player=white&t=1762095833.6431215"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g8&player=white&t=1762095833.6431234"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h8&player=white&t=1762095833.6431253"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white&t=1762095838.811096"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b8&player=white&t=1762095838.8111002"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c8&player=white&t=1762095838.8111026"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d8&player=white&t=1762095838.8111055"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e8&player=white&t=1762095838.8111079"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f8&player=white&t=1762095838.8111095"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g8&player=white&t=1762095838.8111117"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h8&player=white&t=1762095838.811114"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a7&player=white&t=1762095833.6431282"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b7&player=white&t=1762095833.6431298"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c7&player=white&t=1762095833.6431315"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d7&player=white&t=1762095833.6431336"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e7&player=white&t=1762095833.643135"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f7&player=white&t=1762095833.6431363"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g7&player=white&t=1762095833.6431372"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h7&player=white&t=1762095833.6431384"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a7&player=white&t=1762095838.8111167"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b7&player=white&t=1762095838.8111188"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c7&player=white&t=1762095838.811121"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d7&player=white&t=1762095838.811123"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e7&player=white&t=1762095838.811125"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f7&player=white&t=1762095838.8111277"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g7&player=white&t=1762095838.8111296"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h7&player=white&t=1762095838.8111317"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a6&player=white&t=1762095833.6431398"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b6&player=white&t=1762095833.6431408"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c6&player=white&t=1762095833.643142"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d6&player=white&t=1762095833.643143"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e6&player=white&t=1762095833.6431441"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f6&player=white&t=1762095833.6431453"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g6&player=white&t=1762095833.6431463"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h6&player=white&t=1762095833.6431472"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a6&player=white&t=1762095838.8111334"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b6&player=white&t=1762095838.8111353"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c6&player=white&t=1762095838.8111367"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d6&player=white&t=1762095838.8111377"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e6&player=white&t=1762095838.811139"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f6&player=white&t=1762095838.81114"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g6&player=white&t=1762095838.8111417"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h6&player=white&t=1762095838.8111427"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a5&player=white&t=1762095833.6431487"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b5&player=white&t=1762095833.6431496"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c5&player=white&t=1762095833.6431506"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d5&player=white&t=1762095833.6431515"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e5&player=white&t=1762095833.643153"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f5&player=white&t=1762095833.6431541"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g5&player=white&t=1762095833.643155"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h5&player=white&t=1762095833.6431563"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a5&player=white&t=1762095838.8111439"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b5&player=white&t=1762095838.811145"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c5&player=white&t=1762095838.811146"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d5&player=white&t=1762095838.811147"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e5&player=white&t=1762095838.811148"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f5&player=white&t=1762095838.811149"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g5&player=white&t=1762095838.8111498"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h5&player=white&t=1762095838.8111508"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a4&player=white&t=1762095833.6431575"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b4&player=white&t=1762095833.6431587"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c4&player=white&t=1762095833.6431599"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d4&player=white&t=1762095833.6431608"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e4&player=white&t=1762095833.6431618"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f4&player=white&t=1762095833.6431632"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g4&player=white&t=1762095833.6431642"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h4&player=white&t=1762095833.643165"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a4&player=white&t=1762095838.8111522"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b4&player=white&t=1762095838.8111532"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c4&player=white&t=1762095838.8111541"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d4&player=white&t=1762095838.811155"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e4&player=white&t=1762095838.8111563"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f4&player=white&t=1762095838.8111572"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g4&player=white&t=1762095838.8111582"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h4&player=white&t=1762095838.8111594"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a3&player=white&t=1762095833.6431665"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b3&player=white&t=1762095833.6431675"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c3&player=white&t=1762095833.6431684"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d3&player=white&t=1762095833.6431699"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e3&player=white&t=1762095833.6431706"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f3&player=white&t=1762095833.6431718"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g3&player=white&t=1762095833.643173"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h3&player=white&t=1762095833.643174"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a3&player=white&t=1762095838.8111606"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b3&player=white&t=1762095838.8111618"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c3&player=white&t=1762095838.811163"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d3&player=white&t=1762095838.811164"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e3&player=white&t=1762095838.8111649"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f3&player=white&t=1762095838.811166"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g3&player=white&t=1762095838.811167"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h3&player=white&t=1762095838.8111677"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a2&player=white&t=1762095833.643175"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b2&player=white&t=1762095833.6431758"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c2&player=white&t=1762095833.643177"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d2&player=white&t=1762095833.6431782"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e2&player=white&t=1762095833.6431792"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f2&player=white&t=1762095833.6431804"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g2&player=white&t=1762095833.6431813"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h2&player=white&t=1762095833.6431823"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a2&player=white&t=1762095838.811169"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b2&player=white&t=1762095838.81117"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c2&player=white&t=1762095838.811171"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d2&player=white&t=1762095838.811172"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e2&player=white&t=1762095838.8111732"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f2&player=white&t=1762095838.8111742"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g2&player=white&t=1762095838.811175"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h2&player=white&t=1762095838.8111763"width="64" height="64"/></picture>
 </div>
 <div>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a1&player=white&t=1762095833.6431837"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b1&player=white&t=1762095833.6431847"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c1&player=white&t=1762095833.6431856"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d1&player=white&t=1762095833.6431866"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e1&player=white&t=1762095833.6431878"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f1&player=white&t=1762095833.643189"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g1&player=white&t=1762095833.64319"width="64" height="64"/></picture>
-  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h1&player=white&t=1762095833.6431913"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a1&player=white&t=1762095838.8111773"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=b1&player=white&t=1762095838.8111782"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=c1&player=white&t=1762095838.8111792"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=d1&player=white&t=1762095838.8111804"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=e1&player=white&t=1762095838.8111813"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=f1&player=white&t=1762095838.8111825"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=g1&player=white&t=1762095838.8111837"width="64" height="64"/></picture>
+  <picture><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=h1&player=white&t=1762095838.8111846"width="64" height="64"/></picture>
 </div>
     </td>
     <!-- Right: Status Panel -->
