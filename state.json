@@ -1,8 +1,26 @@
 {
-    "white": "start",
+    "white": "selected",
     "black": "start",
     "turn": "white",
-    "legal_list": [],
+    "legal_list": [
+        "g8",
+        "e8",
+        "c8",
+        "f7",
+        "e7",
+        "d7",
+        "h6",
+        "g6",
+        "f6",
+        "d6",
+        "c6",
+        "b6",
+        "f5",
+        "e5",
+        "d5",
+        "g4",
+        "h3"
+    ],
     "moves": [
         "e2e4",
         "e7e5",
@@ -52,6 +70,6 @@
         "d8h4"
     ],
     "board": "5k2/p5p1/1p2Q2p/2p5/2B1P2q/N7/PPP3PP/2K5 w - - 2 24",
-    "on_select": "d8",
+    "on_select": "e6",
     "prom_list": []
 }
