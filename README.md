@@ -58,34 +58,11 @@
 
 ---
 
-### **How to Play**
-
+<h2>How to Play</h2>
 1. Click on the board to select a piece  
 2. Then click a valid destination square  
-3. GitHub will trigger a move via workflow → commit updated board  
-4. You may need to **refresh the page** to see the latest move  
-5. No take-backs (unless you hack the commit history 😏)
-
----
-
-### **How This Works**
-
-✅ Each square on the board is an `<img>` with a link to `/move?from=A2&to=A4`  
-✅ Moves trigger a `repository_dispatch` event  
-✅ A GitHub Action updates `state.json` + `README.md` + board SVG  
-✅ No live JavaScript. Just GitHub being abused beautifully.
-
----
-
-### **Tech Used**
-
-| Component      | Purpose                        |
-|----------------|--------------------------------|
-| `Flask`        | Serves board images + routes   |
-| `python-chess` | Game logic + move validation   |
-| `GitHub Actions` | Processes moves + commits updates |
-| `SVG / PNG`    | Board rendering                |
-| `README.md`    | The entire game UI             |
+3. GitHub will trigger a move via a commit and refresh
+4. You may need to **refresh the page** to see the latest move from your opponent  
 
 ---
 
