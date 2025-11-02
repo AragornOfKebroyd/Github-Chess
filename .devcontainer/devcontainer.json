@@ -2,5 +2,11 @@
   "name": "GitHub Chess Devcontainer",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "postCreateCommand": "pip install --upgrade pip && pip install flask requests",
-  "forwardPorts": [5000]
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "label": "Flask chess server",
+      "visibility": "public"
+    }
+  }
 }

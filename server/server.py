@@ -1,8 +1,9 @@
-from flask import Flask, request, redirect, send_file
+from flask import Flask, request, redirect, send_file, Response
 import requests
 import os
 import json
 import chess
+import chess.svg
 
 app = Flask(__name__)
 
@@ -20,6 +21,8 @@ def move():
     redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess")
 
     # Call GitHub API to trigger repository_dispatch
+
+    # note that this should only be done upon shutting down of the codespace to make sure that it is stored
     payload = {"game": game, "move": move}
     response = requests.post(
         "https://api.github.com/repos/AragornOfKebroyd/Github-Chess/dispatches",
@@ -134,6 +137,20 @@ def display():
 
     path = os.path.join(os.getcwd(), "images", imagename)
     return send_file(path, mimetype='image/png')
+
+@app.route('/displayboard')
+def display_board():
+    with open('state.json', 'r') as f:
+        state = json.load(f)
+    
+    board = chess.Board(state["board"])
+
+    svg = chess.svg.board(
+        board
+    )
+
+    return Response(svg, mimetype='image/svg+xml')
+
 
 
 if __name__ == "__main__":
