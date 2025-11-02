@@ -91,7 +91,6 @@ def click(): # state logic
                 if move.from_square == chess_square:
                     legal_list.append(chess.square_name(move.to_square)) # keep in mind, if we dont have enough info later, change this
                     # eg: legal string is something like ['e3', 'e4']
-            print(legal_list)
             state["legal_list"] = legal_list
     
     
@@ -108,13 +107,23 @@ def click(): # state logic
             state["board"] = update_board.get_board_after_move(uci_move, state["board"])
             state["turn"] = "black" if state["turn"] == "white" else "white"
             state["moves"].append(uci_move)
-
+            state[player] = "start"
+            
+            # reset legal list
+            state["legal_list"] = []
+        else:
+            state[player] = "selected" # change state to selected to display valid moves
+            state["on_select"] = square
     
-        state[player] = "start"
+            legal_list = []
     
-    
-        # reset legal list
-        state["legal_list"] = []
+            # get legal moves of the square
+            for move in board.legal_moves:
+                # Filter moves that START at the selected source square
+                if move.from_square == chess_square:
+                    legal_list.append(chess.square_name(move.to_square)) # keep in mind, if we dont have enough info later, change this
+                    # eg: legal string is something like ['e3', 'e4']
+            state["legal_list"] = legal_list
 
 
     # write back state into json
