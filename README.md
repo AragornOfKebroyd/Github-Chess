@@ -21,7 +21,9 @@
   <tr>
     <!-- Left: Chessboard -->
     <td>
-      <img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/displayboard" width="512" height="512" />
+      <picture>
+        <img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/displayboard" width="512" height="512" />
+      </picture>
     </td>
     <!-- Right: Status Panel -->
     <td style="vertical-align: top; padding-left: 20px;">
