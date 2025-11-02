@@ -1,6 +1,6 @@
 {
     "game": "game0",
-    "white": "start",
+    "white": "selected",
     "black": "start",
     "turn": "white",
     "legal_list": [],
@@ -63,6 +63,6 @@
         "e6g5"
     ],
     "board": "1k6/ppp3pp/3b4/6n1/2B5/7K/PPP2p2/R3R3 w - - 0 29",
-    "on_select": "e6",
+    "on_select": "c2",
     "prom_list": []
 }
