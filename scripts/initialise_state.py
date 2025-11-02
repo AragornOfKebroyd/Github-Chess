@@ -2,8 +2,7 @@ import json
 import sys
 import chess
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from . import generate_board
+import generate_board
 import subprocess
 import time
 
