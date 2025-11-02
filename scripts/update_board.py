@@ -1,12 +1,13 @@
-# import chess
 import json
 import sys
 import chess
 # this code updates state.json using python-chess
 
 def main():
-    game_id = sys.argv[1]
-    move = sys.argv[2]
+    if len(sys.argv) >= 2:
+        move = sys.argv[1]
+    else:
+        raise ValueError("Usage: `python update_board.py <move>`\n e.g python update_board e2e4")
 
     # read in state
     with open('state.json', 'r') as f:
@@ -16,10 +17,8 @@ def main():
 
     board.push_uci(move)
 
-    # for testing
-    # state["board"] = board.fen()
-    # state["board"] = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-    
+    # use board.board_fen() for only the board section (not including turn and castling data)
+    state["board"] = board.fen()
     state["moves"].append(move)
     state["turn"] = "black" if state["turn"] == "white" else "white"
 
@@ -29,4 +28,6 @@ def main():
     # assert(False)
     # generate_board_image(fen=state["board"], output_path="../board_image.png")
 
-main()    
+
+if __name__ == "__main__":
+    main() 
