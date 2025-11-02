@@ -1,3 +1,5 @@
+[Update](https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump)
+
 <p id="jump">Press a piece to show legal moves, then choose or clip off to reset</p>
 <div>
   <a href=https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/click?game=abc123&sq=a8&player=white&redirect=https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump><img src="https://fictional-orbit-67v7r47r9q9f57wx-5000.app.github.dev/display?game=abc123&sq=a8&player=white&t=1762090894.8188841"width="64" height="64"/></a>
