@@ -45,7 +45,7 @@ def click():
     game = request.args.get("game")
 
     # game logic
-    with open('state.json', 'r') as f:
+    with open('../state.json', 'r') as f:
         state = json.load(f)
 
     # get variables
@@ -94,7 +94,7 @@ def click():
 
 
     # write back state into json
-    with open('state.json', 'w') as f:
+    with open('../state.json', 'w') as f:
         json.dump(state, f, indent=4)
 
     redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess/play/white")
@@ -111,7 +111,7 @@ def display():
 
     game = request.args.get("game")
 
-    with open('state.json', 'r') as f:
+    with open('../state.json', 'r') as f:
         state = json.load(f)
 
     board = chess.Board(state["board"])
