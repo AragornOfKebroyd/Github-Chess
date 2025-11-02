@@ -56,6 +56,7 @@ def click(): # state logic
             state["on_select"] = square
     
             legal_list = []
+            promotion_move_list = []
     
             # get legal moves of the square
             for move in board.legal_moves:
@@ -65,11 +66,13 @@ def click(): # state logic
                     move_to_square = chess.square_name(move.to_square)
                     # autoqueen
                     if move.promotion is not None:
-                        move_to_square += 'q'
+                        promotion_move_list.append(move_to_square)
 
                     legal_list.append(move_to_square) # keep in mind, if we dont have enough info later, change this
                     # eg: legal string is something like ['e3', 'e4']
             state["legal_list"] = legal_list
+            state["prom_list"] = promotion_move_list
+
     
     
     
@@ -80,8 +83,8 @@ def click(): # state logic
         # print(state["on_select"], repr(square), state["legal_list"])
     
         if square in state["legal_list"]: # user makes a legal move
-            # TODO handle promotions
-            uci_move = f"{state['on_select']}{square}"
+            print(square)
+            uci_move = f"{state['on_select']}{square}{'q' if square in state["prom_list"] else ''}"
             state["board"] = update_board.get_board_after_move(uci_move, state["board"])
             state["turn"] = "black" if state["turn"] == "white" else "white"
             state["moves"].append(uci_move)
