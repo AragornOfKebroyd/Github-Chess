@@ -1,8 +1,14 @@
 {
     "white": "start",
-    "black": "start",
+    "black": "selected",
     "turn": "black",
-    "legal_list": [],
+    "legal_list": [
+        "c8",
+        "c6",
+        "a6",
+        "d5",
+        "e4"
+    ],
     "moves": [
         "e2e4",
         "e7e5",
@@ -23,6 +29,6 @@
         "b1a3"
     ],
     "board": "r2qkbnr/pb1p2pp/1p3p2/1Bp1n3/4P3/N1Q1B3/PPP2PPP/R3K2R b KQkq - 1 9",
-    "on_select": "b1",
+    "on_select": "b7",
     "prom_list": []
 }
