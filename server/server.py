@@ -9,6 +9,8 @@ app = Flask(__name__)
 
 GITHUB_TOKEN = os.environ.get("ACCESS_TOKEN")
 
+state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
+
 
 @app.route("/")
 def hello():
@@ -43,12 +45,13 @@ def move():
     return redirect(redirect_url)
 
 @app.route("/click")
-def click():
+def click(): # state logic
     square = request.args.get("sq")
+    current_player = request.args.get("player")
     game = request.args.get("game")
 
     # game logic
-    with open('state.json', 'r') as f:
+    with open(state_path, 'r') as f:
         state = json.load(f)
 
     # get variables
@@ -58,7 +61,12 @@ def click():
     piece = board.piece_at(chess_square)
     
     player = state["turn"] # white or black
-    
+
+    if player != current_player:
+        # do nothing
+        print(player,current_player) # check working
+        return redirect(redirect_url)
+
     if state[player] == "start":
         if piece == None:
             state[player] = "start" # state remains at start as user didn't select valid move
@@ -120,7 +128,7 @@ def display():
 
     game = request.args.get("game")
 
-    with open('state.json', 'r') as f:
+    with open(state_path, 'r') as f:
         state = json.load(f)
 
     board = chess.Board(state["board"])
@@ -135,7 +143,6 @@ def display():
         imagename = pieceEnum[piece.piece_type] + colourEnum[piece.color]
 
     imagename = imagename + board_colour
-
     # add green indicator
     if square in legal_list:
         imagename = imagename + 'h'
@@ -147,7 +154,7 @@ def display():
 
 @app.route('/displayboard')
 def display_board():
-    with open('state.json', 'r') as f:
+    with open(state_path, 'r') as f:
         state = json.load(f)
     
     board = chess.Board(state["board"])
