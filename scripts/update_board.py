@@ -30,30 +30,10 @@ def update_board(from_square: str, to_square: str, promotion=False) -> None:
         json.dump(state, f)
 
 
-def main():
-    if len(sys.argv) >= 2:
-        move = sys.argv[1]
-    else:
-        raise ValueError("Usage: `python update_board.py <move>`\n e.g python update_board e2e4")
+def get_board_after_move(uci_move, cur_fen) -> str:
+    board = chess.Board(cur_fen)
+    board.push_uci(uci_move)
 
-    # read in state
-    with open('state.json', 'r') as f:
-        state = json.load(f)
-
-    board = chess.Board(state["board"])
-
-    board.push_uci(move)
-
-    # use board.board_fen() for only the board section (not including turn and castling data)
-    state["board"] = board.fen()
-    state["moves"].append(move)
-    state["turn"] = "black" if state["turn"] == "white" else "white"
-    state["on_select"] = None
-    state["legal_list"] = []
-
-    with open(state_path, "w") as f:
-        json.dump(state, f)
+    return board.fen()
 
 
-if __name__ == "__main__":
-    main() 

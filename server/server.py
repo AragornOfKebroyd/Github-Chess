@@ -105,15 +105,14 @@ def click(): # state logic
         # print(state["on_select"], repr(square), state["legal_list"])
     
         if square in state["legal_list"]: # user makes a legal move
-            # *** call function to update board ***
-            # moving FROM state["on_select"]
-            # moving TO square
-            # these will be strings eg: "e4", not python chess constants
-            # update_board.update_board(from_square=state["on_select"], to_square=square, state=state)
+            # TODO handle promotions
+            uci_move = f"{state['on_select']}{square}"
+            state["board"] = update_board.get_board_after_move(uci_move, state["board"])
+            state["turn"] = "black" if state["turn"] == "white" else "white"
+            state["moves"].append(uci_move)
+
     
-            state[player] = "start"
-        else:
-            state[player] = "start"
+        state[player] = "start"
     
     
         # reset legal list
