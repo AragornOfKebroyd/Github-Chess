@@ -21,6 +21,7 @@ def main():
         "white": "start",  # represents whether player has selected a piece or not
         "black": "start",
         "turn": "white",
+        "legal_moves": [],
         "moves": [],
         "board": board.fen(),
         "on_select": None,  # represents currently selected square

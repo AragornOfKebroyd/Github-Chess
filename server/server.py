@@ -1,13 +1,14 @@
-from flask import Flask, request, redirect, send_file, Response
+from flask import Flask, request, redirect, send_file, Response, send_from_directory
 import requests
 import os
 import json
 import sys
 import chess
 import chess.svg
+import subprocess, time
 # import update_board.py
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from scripts import update_board
+from scripts import update_board, generate_board
 
 
 app = Flask(__name__)
@@ -15,7 +16,6 @@ app = Flask(__name__)
 GITHUB_TOKEN = os.environ.get("ACCESS_TOKEN")
 
 state_path = os.path.join(os.path.dirname(__file__),'..','state.json')
-
 
 @app.route("/")
 def hello():
@@ -87,13 +87,11 @@ def click(): # state logic
     
             # get legal moves of the square
             for move in board.legal_moves:
-                print(move,move.from_square,chess_square)
                 # Filter moves that START at the selected source square
                 if move.from_square == chess_square:
-                    print(move)
                     legal_list.append(chess.square_name(move.to_square)) # keep in mind, if we dont have enough info later, change this
                     # eg: legal string is something like ['e3', 'e4']
-            print(legal_list, piece, board.legal_moves, chess_square)
+            print(legal_list)
             state["legal_list"] = legal_list
     
     
@@ -116,12 +114,26 @@ def click(): # state logic
     
     
         # reset legal list
-        state["legal_list"] = ""
+        state["legal_list"] = []
 
 
     # write back state into json
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
+
+    print("HEREHRHEHRHER")
+    # update time query tags to avoid caching
+    new_html = generate_board.generate_board(current_player)
+    with open(os.path.join(os.path.dirname(__file__),'..','play',current_player,'README.html'), 'w') as f:
+        f.write(new_html)
+
+    # push to github
+    subprocess.run(["git", "add", "."], check=True)
+    subprocess.run(["git", "commit", "-m", f"Update {player} board at {time.time()}"], check=True)
+    subprocess.run(["git", "pull"], check=True)
+    subprocess.run(["git", "rebase"], check=True)
+    subprocess.run(["git", "push"], check=True)
+    print("Pushed board update to GitHub.")
 
     # read the board state and return
     return redirect(redirect_url)
