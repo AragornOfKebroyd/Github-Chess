@@ -6,6 +6,7 @@ import os
 if __name__ == "__main__":
     import generate_board
 else:
+    from . import generate_board
 import subprocess
 import time
 
