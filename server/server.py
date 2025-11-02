@@ -61,7 +61,13 @@ def click(): # state logic
             for move in board.legal_moves:
                 # Filter moves that START at the selected source square
                 if move.from_square == chess_square:
-                    legal_list.append(chess.square_name(move.to_square)) # keep in mind, if we dont have enough info later, change this
+                    print(move)
+                    move_to_square = chess.square_name(move.to_square)
+                    # autoqueen
+                    if move.promotion is not None:
+                        move_to_square += 'q'
+
+                    legal_list.append(move_to_square) # keep in mind, if we dont have enough info later, change this
                     # eg: legal string is something like ['e3', 'e4']
             state["legal_list"] = legal_list
     
