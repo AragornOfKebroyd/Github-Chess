@@ -131,7 +131,6 @@ def click(): # state logic
     subprocess.run(["git", "add", "."], check=True)
     subprocess.run(["git", "commit", "-m", f"Update {player} board at {time.time()}"], check=True)
     subprocess.run(["git", "pull"], check=True)
-    subprocess.run(["git", "rebase"], check=True)
     subprocess.run(["git", "push"], check=True)
     print("Pushed board update to GitHub.")
 
