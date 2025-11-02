@@ -7,6 +7,26 @@ import chess
 # 1. move not given
 # 2. move is invalid or illegal
 
+def update_board(from_square: str, to_square: str, promotion=False) -> None:
+    uci_move = f"{from_square}{to_square}{'q' if promotion else ''}"
+
+    # read in state
+    with open('state.json', 'r') as f:
+        state = json.load(f)
+
+    board = chess.Board(state["board"])
+
+    board.push_uci(uci_move)
+
+    # use board.board_fen() for only the board section (not including turn and castling data)
+    state["board"] = board.fen()
+    state["moves"].append(uci_move)
+    state["turn"] = "black" if state["turn"] == "white" else "white"
+
+    with open("state.json", "w") as f:
+        json.dump(state, f)
+
+
 def main():
     if len(sys.argv) >= 2:
         move = sys.argv[1]
