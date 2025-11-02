@@ -1,7 +1,7 @@
 import pyperclip
 import time
 
-def generate_board(player):
+def generate_board(player, clickable):
     if player == "white":
         numrange = range(8, 0, -1)
     else:
@@ -14,7 +14,10 @@ def generate_board(player):
         string += "<div>\n"
         for letter in 'abcdefgh':
             square = f"{letter}{number}"
-            string += f'  <a href={clickurl(square)}><img src="{url(square)}"width="64" height="64"/></a>\n'
+            if clickable:
+                string += f'  <a href={clickurl(square)}><img src="{url(square)}"width="64" height="64"/></a>\n'
+            else:
+                string += f'  <picture><img src="{url(square)}"width="64" height="64"/></picture>\n'
         string += "</div>\n"
     string += '''
 

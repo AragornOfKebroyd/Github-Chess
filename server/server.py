@@ -124,11 +124,14 @@ def click(): # state logic
     # update time query tags to avoid caching
     black_html = generate_board.generate_board('black')
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
-        f.write(black_html)
+        f.write(black_html, current_player!='black') # only clickable for the next player
 
     white_html = generate_board.generate_board('white')
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
-        f.write(white_html)
+        f.write(white_html, current_player!='white') # only clickable for the next player
+    
+
+
 
     # push to github
     subprocess.run(["git", "add", "."], check=True)
