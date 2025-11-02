@@ -1,4 +1,4 @@
-<h1 align="center">GitHub Chess</h1>
+<h1 align="center" id="jump">GitHub Chess</h1>
 <p align="center">Play chess entirely through a GitHub README!</p>
 
 
@@ -6,11 +6,11 @@
 
 <p align="center">
   <!-- These links should trigger your Flask endpoint or workflow to register the player -->
-  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/white#jump">
     <img src="https://img.shields.io/badge/Play_as_White-ffffff?style=for-the-badge" width=200 />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess/tree/main/play/black#jump">
     <img src="https://img.shields.io/badge/Play_as_Black-000000?style=for-the-badge" width=200 />
   </a>
 </p>
@@ -45,7 +45,7 @@
         <tr>
           <td><b>Refresh</b></td>
           <td valign="middle" align="center">
-            <a href="https://github.com/AragornOfKebroyd/Github-Chess">
+            <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
               <img src="https://img.shields.io/badge/Refresh-000088?style=for-the-badge?logo=refresh?logoColor=white" height=22/>
             </a>
           </td>
