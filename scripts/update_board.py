@@ -3,6 +3,10 @@ import sys
 import chess
 # this code updates state.json using python-chess
 
+# throws error if
+# 1. move not given
+# 2. move is invalid or illegal
+
 def main():
     if len(sys.argv) >= 2:
         move = sys.argv[1]
@@ -24,9 +28,6 @@ def main():
 
     with open("state.json", "w") as f:
         json.dump(state, f)
-
-    # assert(False)
-    # generate_board_image(fen=state["board"], output_path="../board_image.png")
 
 
 if __name__ == "__main__":
