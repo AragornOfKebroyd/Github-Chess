@@ -1,18 +1,10 @@
 {
     "white": "start",
     "black": "start",
-    "turn": "black",
+    "turn": "white",
     "legal_list": [],
-    "moves": [
-        "e2e4",
-        "f7f5",
-        "d1h5",
-        "g7g6",
-        "f1e2",
-        "g6h5",
-        "e2h5"
-    ],
-    "board": "rnbqkbnr/ppppp2p/8/5p1B/4P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
-    "on_select": "e2",
+    "moves": [],
+    "board": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "on_select": null,
     "prom_list": []
 }
