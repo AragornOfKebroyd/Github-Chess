@@ -2,8 +2,13 @@ from flask import Flask, request, redirect, send_file, Response
 import requests
 import os
 import json
+import sys
 import chess
 import chess.svg
+# import update_board.py
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from scripts import update_board
+
 
 app = Flask(__name__)
 
@@ -17,7 +22,7 @@ def hello():
     return "GitHub Chess backend is live!"
 
 @app.route("/move")
-def move():
+def move(): # DEPRICATED
     move = request.args.get("move")
     game = request.args.get("game")
     redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess")
@@ -49,14 +54,16 @@ def click(): # state logic
     square = request.args.get("sq")
     current_player = request.args.get("player")
     game = request.args.get("game")
+    redirect_url = request.args.get("redirect", f"https://github.com/AragornOfKebroyd/Github-Chess/{current_player}")
 
     # game logic
     with open(state_path, 'r') as f:
         state = json.load(f)
+    # print(state)
+    # print(state['board'])
 
     # get variables
     board = chess.Board(state["board"])
-    
     chess_square = chess.parse_square(square) # chess_square is python chess square object eg: chess.A8
     piece = board.piece_at(chess_square)
     
@@ -64,10 +71,12 @@ def click(): # state logic
 
     if player != current_player:
         # do nothing
+        print("WRONG PLAYER'S TURN, EXITING WITH NO FURTHER COMPUTATION")
         print(player,current_player) # check working
         return redirect(redirect_url)
 
     if state[player] == "start":
+        print(piece)
         if piece == None:
             state[player] = "start" # state remains at start as user didn't select valid move
         else:
@@ -78,13 +87,13 @@ def click(): # state logic
     
             # get legal moves of the square
             for move in board.legal_moves:
-                # print(move)
+                print(move,move.from_square,chess_square)
                 # Filter moves that START at the selected source square
                 if move.from_square == chess_square:
-                    # print(move)
-                    legal_list.append(chess.square_name(move.to_square))
+                    print(move)
+                    legal_list.append(chess.square_name(move.to_square)) # keep in mind, if we dont have enough info later, change this
                     # eg: legal string is something like ['e3', 'e4']
-            print(legal_list)
+            print(legal_list, piece, board.legal_moves, chess_square)
             state["legal_list"] = legal_list
     
     
@@ -100,6 +109,7 @@ def click(): # state logic
             # moving FROM state["on_select"]
             # moving TO square
             # these will be strings eg: "e4", not python chess constants
+            # update_board.update_board(from_square=state["on_select"], to_square=square, state=state)
     
             state[player] = "start"
         else:
@@ -114,7 +124,6 @@ def click(): # state logic
     with open('state.json', 'w') as f:
         json.dump(state, f, indent=4)
 
-    redirect_url = request.args.get("redirect", "https://github.com/AragornOfKebroyd/Github-Chess/play/white")
     # read the board state and return
     return redirect(redirect_url)
 
