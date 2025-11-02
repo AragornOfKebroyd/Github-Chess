@@ -2,7 +2,7 @@ import json
 import sys
 import chess
 import os
-import generate_board
+from . import generate_board
 import subprocess
 import time
 
