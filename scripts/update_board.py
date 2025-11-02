@@ -45,6 +45,8 @@ def main():
     state["board"] = board.fen()
     state["moves"].append(move)
     state["turn"] = "black" if state["turn"] == "white" else "white"
+    state["on_select"] = None
+    state["legal_list"] = []
 
     with open("state.json", "w") as f:
         json.dump(state, f)

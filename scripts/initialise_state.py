@@ -16,12 +16,13 @@ def main():
     board = chess.Board()
 
     state = {
-        "game": game_id,
-        "white_state": "start",  # represents whether player has selected a piece or not
-        "black_state": "start",
+        "white": "start",  # represents whether player has selected a piece or not
+        "black": "start",
         "turn": "white",
         "moves": [],
-        "board": board.fen()
+        "board": board.fen(),
+        "on_select": None,  # represents currently selected square
+        "legal_list": [],  # allowed moves from 'on_select'
     }
 
     with open("state.json", "w") as f:
