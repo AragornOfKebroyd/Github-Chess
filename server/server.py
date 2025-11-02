@@ -124,7 +124,7 @@ def click(): # state logic
 
     # update time query tags to avoid caching
     new_html = generate_board.generate_board(current_player)
-    with open(os.path.join(os.path.dirname(__file__),'..','play',current_player,'README.html'), 'w') as f:
+    with open(os.path.join(os.path.dirname(__file__),'..','play',current_player,'README.md'), 'w') as f:
         f.write(new_html)
 
     # push to github
