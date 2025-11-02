@@ -1,9 +1,12 @@
 {
     "game": "game0",
-    "white": "start",
+    "white": "selected",
     "black": "start",
     "turn": "white",
-    "legal_list": [],
+    "legal_list": [
+        "c3",
+        "c4"
+    ],
     "moves": [
         "e2e4",
         "d7d5",
