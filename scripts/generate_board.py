@@ -3,6 +3,8 @@ import time
 import os
 
 def generate_board(player, clickable, last_move, game_over):
+    if game_over: clickable = False
+    
     if player == "white":
         numrange = range(8, 0, -1)
     else:
