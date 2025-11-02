@@ -53,44 +53,51 @@ def click():
 
     # get variables
     board = chess.Board(state["board"])
-
+    
     chess_square = chess.parse_square(square) # chess_square is python chess square object eg: chess.A8
     piece = board.piece_at(chess_square)
-
+    
     player = state["turn"] # white or black
-
+    
     if state[player] == "start":
         if piece == None:
             state[player] = "start" # state remains at start as user didn't select valid move
         else:
             state[player] = "selected" # change state to selected to display valid moves
             state["on_select"] = square
-
+    
+            legal_list = []
+    
             # get legal moves of the square
             for move in board.legal_moves:
+                # print(move)
                 # Filter moves that START at the selected source square
                 if move.from_square == chess_square:
+                    # print(move)
                     legal_list.append(chess.square_name(move.to_square))
-                    # eg: legal string is something like a4e5c3
-
+                    # eg: legal string is something like ['e3', 'e4']
+            print(legal_list)
             state["legal_list"] = legal_list
-
-
+    
+    
+    
     elif state[player] == "selected":
         selected_chess_square = chess.parse_square(state["on_select"])
         selected_piece = board.piece_at(selected_chess_square)
-
-        if state["on_select"] in state["legal_list"]: # user makes a legal move
+    
+        # print(state["on_select"], repr(square), state["legal_list"])
+    
+        if square in state["legal_list"]: # user makes a legal move
             # *** call function to update board ***
             # moving FROM state["on_select"]
             # moving TO square
             # these will be strings eg: "e4", not python chess constants
-
+    
             state[player] = "start"
         else:
             state[player] = "start"
-
-
+    
+    
         # reset legal list
         state["legal_list"] = ""
 
