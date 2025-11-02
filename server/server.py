@@ -121,7 +121,7 @@ def click(): # state logic
 
 
     # write back state into json
-    with open('state.json', 'w') as f:
+    with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
     # read the board state and return
