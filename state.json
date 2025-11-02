@@ -3,7 +3,10 @@
     "white": "selected",
     "black": "start",
     "turn": "white",
-    "legal_list": [],
+    "legal_list": [
+        "h5",
+        "g4"
+    ],
     "moves": [
         "e2e4",
         "d7d5",
@@ -45,5 +48,5 @@
         "f5h5"
     ],
     "board": "2k5/ppp2ppp/8/7r/1b1n2nK/3r4/PPP5/R1B2B1R w - - 0 20",
-    "on_select": "h5"
+    "on_select": "h4"
 }
