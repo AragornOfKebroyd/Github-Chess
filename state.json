@@ -4,7 +4,9 @@
     "black": "selected",
     "turn": "black",
     "legal_list": [
-        "b8"
+        "e7",
+        "h6",
+        "f6"
     ],
     "moves": [
         "e2e4",
@@ -34,5 +36,5 @@
         "e2f3"
     ],
     "board": "2k3nr/ppp2ppp/2n5/4rP2/1b4PP/3Q1K2/PPP5/R1B2B1R b - - 2 13",
-    "on_select": "c8"
+    "on_select": "g8"
 }
