@@ -50,7 +50,6 @@ def click():
 
     # get variables
     board = chess.Board(state["board"])
-    piece = board.piece_at(square)
 
     chess_square = chess.parse_square(square) # chess_square is python chess square object eg: chess.A8
     piece = board.piece_at(chess_square)
