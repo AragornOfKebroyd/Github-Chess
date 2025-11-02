@@ -130,11 +130,13 @@ def click(): # state logic
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
-    black_html = generate_board.generate_board('black', state["turn"] == "black", state["moves"][-1], board.is_game_over()) # only clickable for the current player
+
+    prev_move = state["moves"][-1] if len(state["moves"]) > 0 else "-"
+    black_html = generate_board.generate_board('black', state["turn"] == "black", prev_move, board.is_game_over()) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','black','README.md'), 'w') as f:
         f.write(black_html)
 
-    white_html = generate_board.generate_board('white', state["turn"] == "white", state["moves"][-1], board.is_game_over()) # only clickable for the current player
+    white_html = generate_board.generate_board('white', state["turn"] == "white", prev_move, board.is_game_over()) # only clickable for the current player
     with open(os.path.join(os.path.dirname(__file__),'..','play','white','README.md'), 'w') as f:
         f.write(white_html)
 
