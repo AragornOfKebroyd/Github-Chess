@@ -1,6 +1,6 @@
 {
     "game": "game0",
-    "white": "start",
+    "white": "selected",
     "black": "start",
     "turn": "white",
     "legal_list": [],
@@ -45,5 +45,5 @@
         "f5h5"
     ],
     "board": "2k5/ppp2ppp/8/7r/1b1n2nK/3r4/PPP5/R1B2B1R w - - 0 20",
-    "on_select": "f5"
+    "on_select": "h5"
 }
