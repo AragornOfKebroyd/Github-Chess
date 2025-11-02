@@ -1,16 +1,15 @@
 {
     "game": "game0",
-    "white": "selected",
+    "white": "start",
     "black": "start",
-    "turn": "white",
-    "legal_list": [
-        "e5"
-    ],
+    "turn": "black",
+    "legal_list": [],
     "moves": [
         "e2e4",
-        "g8f6"
+        "g8f6",
+        "e4e5"
     ],
-    "board": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+    "board": "rnbqkb1r/pppppppp/5n2/4P3/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
     "on_select": "e4",
     "prom_list": []
 }
