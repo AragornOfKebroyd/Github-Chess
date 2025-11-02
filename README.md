@@ -44,18 +44,15 @@
           <td><b>Game ID</b></td>
           <td>abc123</td>
         </tr>
-        <tr>
-          <td><b>Refresh</b></td>
-          <td valign="middle" align="center">
-            <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
-              <img src="https://img.shields.io/badge/Refresh-000088?style=for-the-badge?logo=refresh?logoColor=white" height=22/>
-            </a>
-          </td>
-        </tr>
       </table>
     </td>
   </tr>
 </table>
+<p align="center">
+  <a href="https://github.com/AragornOfKebroyd/Github-Chess#jump">
+    <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
+  </a>
+</p>
 
 <h2>How to Play</h2>
 <ol>
