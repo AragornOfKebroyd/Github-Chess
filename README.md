@@ -17,6 +17,7 @@
 
 
 
+
 <table align="center">
   <tr>
     <!-- Left: Chessboard -->
@@ -53,6 +54,9 @@
     <img src="https://img.shields.io/badge/Refresh-555588?style=for-the-badge" width=200 />
   </a>
 </p>
+
+<h2>Note</h2>
+<p>that if images aren't loading that means the codespace isn't open.</p>
 
 <h2>How to Play</h2>
 <ol>
