@@ -66,16 +66,16 @@
   <li>You may need to refresh the page to see the latest move from your opponent</li>
 </ol>
 
+<h2>Example Screenshots</h2>
+<p>Home Page:</p>
+<img src="./screenshot_images/home page.png"/>
+<p>When Player is chosen:</p>
+<img src="./screenshot_images/start state.png"/>
+<p>When a piece is selected:</p>
+<img src="./screenshot_images/move set.png"/>
 
 <p align="center">Also note, here is <a href="https://github.com/awrreny/Minecraft-In-Github">minecraft in github</a>.</p>
 
 <p align="center">
   Built for the hackathon theme: <b>"Unintended Behaviour"</b> and can be found <a href="https://devpost.com/software/github-readme-chess">here</a>.
 </p>
-<h2>Example Screenshots</h2>
-<p>Home Page:</p>
-<a href="./screenshot_images/home page.png">
-<p>When Player is chosen:</p>
-<a href="./screenshot_images/start state.png">
-<p>When a piece is selected:</p>
-<a href="./screenshot_images/move set.png">
