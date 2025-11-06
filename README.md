@@ -70,6 +70,6 @@
 <p align="center">Also note, here is <a href="https://github.com/awrreny/Minecraft-In-Github">minecraft in github</a>.</p>
 
 <p align="center">
-  <sub>Built for the hackathon theme: <strong>“Unintended Behaviour”</strong> — turning GitHub into a real-time chess platform.</sub>
+  Built for the hackathon theme: <b>"Unintended Behaviour"</b> and can be found <a href="https://devpost.com/software/github-readme-chess">here</a>.
 </p>
 
